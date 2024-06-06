@@ -2,11 +2,11 @@ const axios = require("axios");
 
 module.exports = new Object ({
   config: new Object ({
-    name: "akhiro",
+    name: "feitan",
     version: "1.0.0",
     author: "AkhiroDEV",
     description: "Talk to AkhiroAI",
-    usage: "{p}akhiro [query]"
+    usage: "{p}feitan [query]"
   }),
   async onRun({ message, args }){
     const question = args.join(" ");
@@ -19,9 +19,9 @@ module.exports = new Object ({
 
       message.reply(`${msg}`);
       await message.send(`Please Contact The API Developer If There Would Be An Error.
-      https://facebook.com/joshg101,
-      https://www.facebook.com/certainly.francis,
-      https://www.facebook.com/ruinaigel.reogo.5`)
+      https://www.facebook.com/ericsonpascua6,
+      ,
+      `)
     } catch (error) {
       console.log(error);
       message.send(`ERROR: ${error.message}`)
