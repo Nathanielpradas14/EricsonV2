@@ -32,10 +32,10 @@ module.exports = {
             reply += ` | ${num < 10 ? "0" + num : num}. ${name}\n`;
           }
         });
-        reply += `├─────────────⭓\n | [ 🔥 | KurtV2 ]\n`;
+        reply += `├─────────────⭓\n | [ 🔥 | EricsontV2 ]\n`;
       } else {
         reply +=
-          " | No commands available.\n├─────────────⭓\n | [ 🔥 | KurtV2 ]\n";
+          " | No commands available.\n├─────────────⭓\n | [ 🔥 | EricsonV2 ]\n";
       }
       reply += ` | 𝗣𝗮𝗴𝗲𝘀  ${page < 10 ? "0" + page : page} 𝗼𝗳 ${totalPages < 10 ? "0" + totalPages : totalPages}\n╰─────────────⭓`;
       message.reply(reply);
@@ -58,7 +58,7 @@ module.exports = {
  | Usage: ${formattedUsage}
  | Role: ${role === undefined ? "Everyone" : formattedRole}
 ├─────────────⭓
- | [ 🔥 | 𝗞𝘂𝗿𝘁𝗩2 ]
+ | [ 🔥 | Ericson𝗩2 ]
 ╰─────────────⭓
         `.trim();
         message.reply(reply);
